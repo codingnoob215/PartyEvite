@@ -1,7 +1,7 @@
 /* My download Font */
 @font-face {
     font-family: bloody;
-    src: url("BLoodytype.otf") format('opentype');
+    src: url("Bloodytype.otf") format('opentype');
 }
 
 
@@ -157,6 +157,7 @@ a:hover .liquid{
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
 
 
 

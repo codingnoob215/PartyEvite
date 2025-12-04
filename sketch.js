@@ -8,19 +8,19 @@ function setup() {
 function draw() {
   background(20);
 
-  // -------------------------
-  // BLINK LOGIC 
-  blink = frameCount % 120; //  120 frames
+  
+  // Blinking 
+  blink = frameCount % 120; //  
   let houseBlink = 1;
   let catBlink = 1;
 
   if (blink > 80 && blink < 95) {
-    houseBlink = 0.2; // squint
+    houseBlink = 0.2; // 
     catBlink = 0.2;
   }
 
   if (blink >= 95 && blink < 105) {
-    houseBlink = 0.05; // closed
+    houseBlink = 0.05; 
     catBlink = 0.05;
   }
 
@@ -38,13 +38,11 @@ function draw() {
   rect(70, 305, 20, 20);
 
 
-  // -------------------------
-  // BIGGER SCARY HOUSE
-  // -------------------------
+ 
   fill(0);
   noStroke();
 
-  // big house body
+  // house
   rect(120, 150, 260, 220);
 
   // roof
@@ -56,7 +54,7 @@ function draw() {
 
 
   
-  // HOUSE "EYE" WINDOWS 
+  // EYE WINDOWS 
   fill(255, 230, 0);  
 
   // left eye

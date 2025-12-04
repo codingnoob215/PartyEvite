@@ -1,7 +1,7 @@
 /* My download Font */
 @font-face {
     font-family: bloody;
-    src: url("BLoodytype.otf");
+    src: url("BLoodytype.otf") format('opentype');
 }
 
 
@@ -48,7 +48,7 @@ body {
 
 /* Title styling */
 .title {
-    font-family: bloody, Creepster, cursive;
+    font-family: bloody, 'Creepster', cursive;
     font-size: 60px;
     color: #630000;
     margin: 0 0 15px 0;
@@ -157,5 +157,6 @@ a:hover .liquid{
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
 
 

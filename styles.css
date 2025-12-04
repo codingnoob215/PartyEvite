@@ -48,7 +48,7 @@ body {
 
 /* Title styling */
 .title {
-    font-family: bloody, 'Creepster', cursive;
+    font-family: bloody, Creepster, cursive;
     font-size: 60px;
     color: #630000;
     margin: 0 0 15px 0;
@@ -157,4 +157,5 @@ a:hover .liquid{
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
 
